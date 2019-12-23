@@ -22,6 +22,10 @@ body
                 {
                     margin:0;
                     padding:0;
+                    @media(max-width:768px)
+                    {
+                        margin-left: 73px;
+                    }
                 }
                 ul
                 {
@@ -44,6 +48,11 @@ body
                 .icons
                 {
                     float: right;
+                    @media(max-width:768px)
+                    {
+                        float: left;
+                        text-align: center;
+                    }
                 }
                 .icons a
                 {
@@ -90,6 +99,15 @@ body
                 }
                 .navbar
                 {
+                    .navbar-toggler
+                    {
+                        @media(max-width:768px)
+                        {
+                            position: absolute;
+                            right:0;
+                            top:-59px;
+                        }
+                    }
                     .nav-item
                     {
                         .dropdown-toggle
@@ -153,6 +171,11 @@ body
         height: 50px;
         opacity: 1;
         background: $maincolor;
+        @media(max-width:768px)
+        {
+            width:30px;
+            height:30px;
+        }
     }
     .carousel-control-next
     {
@@ -164,6 +187,11 @@ body
         height: 50px;
         opacity: 1;
         background: $maincolor;
+        @media(max-width:768px)
+        {
+            width:30px;
+            height:30px;
+        }
     }
 }
 .content2
@@ -174,6 +202,13 @@ body
     width:45%;
     padding:100px;
     background-color: rgba(31,54,92, 0.85);
+}
+.content2
+{
+    @media(max-width:768px)
+    {
+        display: none;
+    }
 }
 .content2
 {
@@ -243,6 +278,10 @@ body
                     padding:15px;
                     transition: .4s;
                     box-shadow: 5px 10px 18px 1px #888888;
+                    @media(max-width:768px)
+                    {
+                        margin-bottom:50px;
+                    }
                 }
                 .box
                 {
@@ -284,6 +323,10 @@ body
             {
                 padding:80px 50px 50px 110px;
                 background: #fafafa;
+                @media(max-width:768px)
+                {
+                    padding:0 15px;
+                }
             }
             .col-lg-8
             {
@@ -306,6 +349,13 @@ body
                 }
                 .row
                 {
+                    .col
+                    {
+                        @media(max-width:768px)
+                        {
+                            margin-top:55px;
+                        }
+                    }
                     .col-lg-6
                     {
                         img
@@ -341,6 +391,7 @@ body
                                 color:#fff;
                             }
                         }
+                        
                         .box2
                         {
                             margin-bottom:35px;
@@ -368,14 +419,26 @@ body
                             .two
                             {
                                 top:150px;
+                                @media(max-width:768px)
+                                {
+                                    top:170px
+                                }
                             }
                             .three
                             {
                                 top:290px;
+                                @media(max-width:768px)
+                                {
+                                    top:337px
+                                }
                             }
                             .four
                             {
                                 top:435px;
+                                @media(max-width:768px)
+                                {
+                                    top:500px
+                                }
                             }
                             .text
                             {
@@ -439,6 +502,10 @@ body
                         height: 50px;
                         opacity: 1;
                         background: $maincolor;
+                        @media(max-width:768px)
+                        {
+                            top:44%;
+                        }
                     }
                     .carousel-control-next
                     {
@@ -450,6 +517,10 @@ body
                         height: 50px;
                         opacity: 1;
                         background: $maincolor;
+                        @media(max-width:768px)
+                        {
+                            top:44%;
+                        }
                     }
                     .carousel-item
                     {
@@ -488,6 +559,11 @@ body
                                 width:350px;
                                 margin-left: 40px;
                                 margin-top:20px;
+                                @media(max-width:768px)
+                                {
+                                    margin-left:10px;
+                                    width:95%;
+                                }
                             }
                             .icons2
                             {
@@ -559,6 +635,10 @@ body
                     font-size: 40px;
                     @extend .fonts;
                     margin-bottom:20px;
+                    @media(max-width:768px)
+                    {
+                        font-size: 35px;
+                    }
                 }
                 .border2
                 {
@@ -655,6 +735,10 @@ body
                         @extend .fonts;
                         color:#fff;
                         margin-bottom:75px;
+                        @media(max-width:768px)
+                        {
+                            font-size: 45px;
+                        }
                     }
                     a
                     {
@@ -671,6 +755,10 @@ body
                         {
                             background: #fff;
                             color:#282828;
+                        }
+                        @media(max-width:768px)
+                        {
+                            font-size:17px;
                         }
                     }
                 }
@@ -750,6 +838,10 @@ body
                                 padding-left: 19px;
                                 color:#000;
                                 float: left;
+                                @media(max-width:768px)
+                                {
+                                    top:120px;
+                                }
                             }
                             .one
                             {
@@ -761,18 +853,34 @@ body
                             .two
                             {
                                 top:180px;
+                                @media(max-width:768px)
+                                {
+                                    top:262px;
+                                }
                             }
                             .three
                             {
                                 top:274px;
+                                @media(max-width:768px)
+                                {
+                                    top:413px;
+                                }
                             }
                             .four
                             {
                                 top:367px;
+                                @media(max-width:768px)
+                                {
+                                    top:560px;
+                                }
                             }
                             .five
                             {
                                 top:464px;
+                                @media(max-width:768px)
+                                {
+                                    top:710px;
+                                }
                             }
                             .text
                             {
@@ -801,6 +909,11 @@ body
                             justify-content: center;
                             align-items: center;
                             text-align: center;
+                            @media(max-width:768px)
+                            {
+                                width:288px;
+                                height:288px;
+                            }
                         }
                         .reasons
                         {
@@ -809,9 +922,20 @@ body
                                 position: absolute;
                                 top:27%;
                                 padding:30px 80px;
+                                @media(max-width:768px)
+                                {
+                                    top:10%;
+                                }
                             }
                             .text2
                             {
+                                p
+                                {
+                                    @media(max-width:768px)
+                                    {
+                                        font-size: 12px;
+                                    }
+                                }
                                 h3
                                 {
                                     color:#000;
@@ -843,7 +967,7 @@ body
                             text-align: center;
                             background: #1f365c;
                             position: absolute;
-                            top:2%;
+                            top:4%;
                             left:41%;
                             cursor: pointer;
                             transition: .3s;
@@ -854,6 +978,11 @@ body
                             &.active
                             {
                                 background: $maincolor;
+                            }
+                            @media(max-width:768px)
+                            {
+                                width:70px;
+                                height:70px;
                             }
                         }
                         .box4
@@ -881,6 +1010,10 @@ body
                             img
                             {
                                 padding-top:20px;
+                                @media(max-width:768px)
+                                {
+                                    padding-top:10px;
+                                }
                             }
                         }
                     }
@@ -947,6 +1080,13 @@ body
             {
                 .owl-carousel
                 {
+                    @media(max-width:768px)
+                        {
+                            margin-top:60px;
+                        }
+                }
+                .owl-carousel
+                {
                     .owl-nav
                     {
                         display: none;
@@ -954,6 +1094,12 @@ body
                     .owl-dots
                     {
                         float: right;
+                        @media(max-width:768px)
+                        {
+                            float: left;
+                            width:100%;
+                            margin-top:40px;
+                        }
                     }
                     .owl-dots
                     {
@@ -1078,6 +1224,10 @@ body
                     {
                         float: left;
                         width:(100% / 4);
+                        @media(max-width:768px)
+                        {
+                            width:100%;
+                        }
                     }
                     .offer
                     {
@@ -1101,6 +1251,10 @@ body
                             &:hover
                             {
                                 background-color: rgba(51, 207, 159, 0.8)
+                            }
+                            @media(max-width:768px)
+                            {
+                                width:100%;
                             }
                         }
                         .caption2
@@ -1131,6 +1285,12 @@ body
                             {
                                 background-color: rgba(51, 207, 159, 0.8)
                             }
+                            @media(max-width:768px)
+                            {
+                                width:100%;
+                                top:23%;
+                                left:0;
+                            }
                         }
                         .cap3
                         {
@@ -1148,6 +1308,12 @@ body
                             {
                                 background-color: rgba(51, 207, 159, 0.8)
                             }
+                            @media(max-width:768px)
+                            {
+                                width:100%;
+                                top:50%;
+                                left:0;
+                            }
                         }
                         .cap4
                         {
@@ -1164,6 +1330,12 @@ body
                             &:hover
                             {
                                 background-color: rgba(51, 207, 159, 0.8)
+                            }
+                            @media(max-width:768px)
+                            {
+                                width:100%;
+                                top:75%;
+                                left:0;
                             }
                         }
                     }
@@ -1183,6 +1355,10 @@ body
                 padding:0;
                 background: #fafafa;
                 padding:90px 50px 140px 100px;
+                @media(max-width:768px)
+                {
+                    padding:15px;
+                }
             }
             .col-lg-8
             {
@@ -1207,6 +1383,13 @@ body
                 }
                 .row
                 {
+                    .col-lg-4
+                    {
+                        @media(max-width:768px)
+                            {
+                                margin-bottom:50px;
+                            }
+                    }
                     .col-lg-4
                     {
                         img
@@ -1260,6 +1443,11 @@ body
                 .carousel
                 {
                     padding:210px 50px 90px 100px;
+                    @media(max-width:768px)
+                    {
+                        padding:0;
+                        padding:15px;
+                    }
                 }
                 .carousel
                 {
@@ -1325,6 +1513,10 @@ body
 {
     background: url("../images/img37.jpg");
     background-size: cover;
+    @media(max-width:768px)
+        {
+            text-align: center;
+        }
 }
 .top-footer
 {
@@ -1343,6 +1535,13 @@ body
                 .icons3
                 {
                     float: right;
+                    @media(max-width:768px)
+                    {
+                        margin-top:45px;
+                        float: left;
+                        width:100%;
+                        text-align: center;
+                    }
                 }
                 .icons3
                 {
@@ -1370,6 +1569,12 @@ body
                             {
                                 background: $maincolor;
                             }
+                            @media(max-width:768px)
+                            {
+                                width:40px;
+                                height:40px;
+                                line-height: 40px;
+                            }
                         }
                     }
                 }
@@ -1383,6 +1588,10 @@ body
             .col-lg-3
             {
                 padding-left: 0;
+                @media(max-width:768px)
+                {
+                    margin-bottom:40px;
+                }
             }
             .col-lg-3
             {
@@ -1461,6 +1670,10 @@ body
 {
     background-color: #172a4a;
     line-height: 6;
+    @media(max-width:768px)
+    {
+        line-height: 3;
+    }
 }
 .bottom-footer
 {
@@ -1481,6 +1694,10 @@ body
                     span
                     {
                         float: right;
+                        @media(max-width:768px)
+                            {
+                                float: left;
+                            }
                     }
                 }
             }
